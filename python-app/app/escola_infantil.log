@@ -1,0 +1,14 @@
+2025-05-05 20:19:00 - CRITICAL - Erro ao conectar ao banco de dados: connection to server at "localhost" (::1), port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-05-05 20:19:00 - ERROR - CREATE: Erro ao inserir novo aluno - connection to server at "localhost" (::1), port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-05-05 20:56:09 - INFO - CREATE: Aluno {'nome': 'Jo�o', 'idade': 10, 'turma': '5A'} inserido com sucesso. ID gerado: 1
+2025-05-05 20:56:09 - INFO - READ: Listagem de todos os alunos solicitada.
+2025-05-05 20:56:09 - INFO - UPDATE: Aluno com ID '1' atualizado: {'nome': 'Jo�o Silva', 'idade': 11, 'turma': 'None'}.
+2025-05-05 20:56:09 - INFO - DELETE: Aluno com ID '1' removido com sucesso.
